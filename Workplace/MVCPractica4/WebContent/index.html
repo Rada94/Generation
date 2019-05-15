@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Práctica 4</h2>
+
+    <form action="DatosPersonales" method="POST">
+        <p>
+            <label for="txtNombre">Nombre</label>
+            <input class="form-control" type="text" name="txtNombre" id="txtNombre" required>
+        </p>
+        <p>
+            <label for="txtApellidoP">Apellido Paterno</label>
+            <input class="form-control" type="text" name="txtApellidoP" id="txtApellidoP" required>
+        </p>
+        <p>
+            <label for="txtApellidoM">Apellido Materno</label>
+            <input class="form-control" type="text" name="txtApellidoM" id="txtApellidoM" required>
+        </p>
+        <p>
+            <label for="txtEdad">Edad</label>
+            <input class="form-control" type="text" name="txtEdad" id="txtEdad" required>
+        </p>
+        <p>
+            <label for="txtEstatura">Estatura</label>
+            <input class="form-control" type="text" name="txtEstatura" id="txtEstatura" required>
+        </p>
+        <p>
+            <h5>Sexo</h5>
+            <ul>
+                <li><input type="radio" name="rdSexo" id="rdSexoM" value="Masculino" required><label for="rdSexoM">Masculino</label></li>
+                <li><input type="radio" name="rdSexo" id="rdSexoF" value="Femenino"><label for="rdSexoF">Femenino</label></li>
+                <!--<li><input type="radio" name="rdSexo" id="rdDiario" value="Mentiroso"><label for="rdDiario">Diario</label></li>-->
+            </ul>
+        </p>
+        <p>
+            <h5>Mascota</h5>
+            <ul>
+                <li><input type="checkbox" name="cbMascotas" id="cbPerro" value="Perro"><label for="cbPerro">Perro</label></li>
+                <li><input type="checkbox" name="cbMascotas" id="cbGato" value="Gato"><label for="cbGato">Gato</label></li>
+                <li><input type="checkbox" name="cbMascotas" id="cbPez" value="Pajaro"><label for="cbPAjaro">Pajaro</label></li>
+            </ul>
+        </p>
+        <p>
+            <input class="btn btn-primary" type="submit" value="Continuar">
+        </p>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

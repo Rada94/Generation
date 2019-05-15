@@ -1,0 +1,19 @@
+h2
+{
+    color: blue;
+}
+
+ul
+{
+    list-style: none;
+    padding: 10px;
+}
+
+ul li label
+{
+    margin-bottom: 0px;
+    line-height: 1.2em;
+}
+
+
+
