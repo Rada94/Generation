@@ -1,0 +1,16 @@
+h2
+{
+    color: blue;
+}
+
+div
+{
+    border: 2px rgb(28, 28, 82) solid;
+    background-color: brown;
+    color: aliceblue;
+}
+
+.logo
+{
+    width: 100%;
+}

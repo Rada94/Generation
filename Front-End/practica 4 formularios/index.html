@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alta de Alumnos</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <h2>Alta de Alumnos</h2>
+
+<form action="destino.html" method="post">
+    <p>
+        <label for="txtIdAlumno">ID Alumno:</label>
+        <input type="text" id="txtIdAlumno" name="txtIdAlumno" placeholder="Ingrese el ID" required>
+    </p>
+    <p>
+        <label for="txtNombreAlumno">Nombre Alumno:</label>
+        <input type="text" id="txtNombreAlumno" name="txtNombreAlumno" placeholder="Ingrese su nombre" required autofocus>
+    </p>
+    <p>
+        <label for="urlMailAlumno">Página favorita:</label>
+        <input type="url" name="urlMailAlumno" id="urlMailAlumno" placeholder="Ingrese una URL" required>
+    </p>
+    <p>
+        <label for="emailCorreoAlumno">Correo Alumno:</label>
+        <input type="email" name="emailCorreoAlumno" id="emailCorreoAlumno" placeholder="Ingrese el correo" required>
+    </p>
+    <p>
+        <label for="datetimeNacimientoAlumno">Fecha:</label>
+        <input type="datetime" name="datetimeNacimientoAlumno" id="datetimeNacimientoAlumno" placeholder="Ingrese fecha de nacimiento" required>
+    </p>
+    <p>
+        <label for="telNumeroTelefono">Número de teléfono:</label>
+        <input type="tel" name="telNumeroTelefono" id="telNumeroTelefono" placeholder="Ingrese un número de teléfono" required>
+    </p>
+    <p>
+        <label for="searchEscuelaAlumno">Busqueda de escuela:</label>
+        <input type="search" name="searchEscuelaAlumno" id="searchEscuelaAlumno" placeholder="Ingrese una institución" required>
+    </p>
+    <p>
+        <label for="dateFechaActual">Fecha de hoy:</label>
+        <input type="date" name="dateFechaActual" id="dateFechaActual" required>
+    </p>
+    <p>
+        <label for="weekSemana">Número de semana:</label>
+        <input type="week" name="weekSemana" id="weekSemana" placeholder="Ingrese número de semana" required>
+    </p>
+    <p>
+        <label for="timeHora">Hora:</label>
+        <input type="time" name="timeHora" id="timeHora" required>
+    </p>
+    <p>
+        <label for="monthMes">Mes:</label>
+        <input type="month" name="monthMes" id="monthMes" placeholder="Ingrese el número de mes" required>
+    </p>
+    <p>
+        <label for="datetime-localFecha">Fecha de nacimiento:</label>
+        <input type="datetime-local" name="datetime-localFecha" id="datetime-localFecha" placeholder="Ingrese la fecha de nacimiento" required>
+    </p>
+    <p>
+        <label for="numberNumeroDeCasa">Número de casa:</label>
+        <input type="number" name="numberNumeroDeCasa" id="numberNumeroDeCasa" placeholder="Ingrese el numero del domicilio" required>
+    </p>
+    <p>
+        <label for="rangeRango">Rango:</label>
+        <input type="range" name="rangeRango" id="rangeRango" required>
+    </p>
+    <p>
+        <label for="colorColor">Color:</label>
+        <input type="color" name="colorColor" id="colorColor" required>
+    </p>
+    <p>
+        <input type="submit" value="Da click!!!">
+    </p>
+</form>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

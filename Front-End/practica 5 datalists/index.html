@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Datalist</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <h1>Pizzas</h1>
+    <p>
+        Tipos de pizzas:
+    </p>
+    <datalist name="pizza">
+        <option value="Hawaiana">Hawaiana</option>
+        <option value="Carnes frías">Carnes frías</option>
+        <option value="Pepperoni">Pepperoni</option>
+        <option value="Mexicana">Mexicana</option>
+    </datalist>
+    <form action="destino.html">
+        <p>
+            <input type="radio" name="pizzas" id="pizzas1" value="Hawaiana" required>
+            <label for="pizzas1">Hawaiana</label> <br/>
+            <input type="radio" name="pizzas" id="pizzas2" value="Carnes frías">
+            <label for="pizzas2">Carnes frías</label><br/>
+            <input type="radio" name="pizzas" id="pizzas3" value="Pepperoni">
+            <label for="pizzas3">Pepperoni</label><br/>
+            <input type="radio" name="pizzas" id="pizzas4" value="Mexicana">
+            <label for="pizzas4">Mexicana</label><br/>
+            <input type="submit" value="dale!!">
+        </p>
+    </form>
+    <form action="destino.html">
+        <input name="chkPizzas" id="chkPizzas" list="pizzas">
+        <input type="submit" value="dale!!">
+    </form>
+    <p>
+        
+    </p>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

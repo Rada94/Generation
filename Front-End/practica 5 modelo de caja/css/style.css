@@ -1,0 +1,38 @@
+body
+{
+    border: greenyellow 20px solid;
+}
+
+p,h2
+{
+    border: blue 20px solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+div
+{
+    border: blueviolet 20px solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+div
+{
+    color: blue;
+}
+
+p#p3, p#p4
+{
+    color: yellow;
+}
+
+body>p
+{
+    color: red;
+}
+
+#div1 p
+{
+    color: violet;
+}

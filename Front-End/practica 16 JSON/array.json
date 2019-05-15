@@ -1,0 +1,45 @@
+[
+
+    {
+        "Ranger Rojo":
+        {
+            "Peso": 130,
+            "Poder": "Sable"
+        },
+        "Ranger Blanco":
+        {
+            "Peso": 130,
+            "Poder": "Hacha"
+        }
+    },
+    {
+        "Sailor Moon":
+        {
+            "Mascota": "Gato",
+            "Poder": "Luna"
+        },
+        "Sailor Mars":
+        {
+            "Mascota": "Perro",
+            "Poder": "Marte"
+        }
+    },
+    {
+        "Pegasso":
+        {
+            "Nacionalidad": "Grecia"
+        },
+        "Cisne":
+        {
+            "Nacionalidad": "América"
+        },
+        "Andromeda":
+        {
+
+        },
+        "Piscis":
+        {
+            
+        }
+    }
+]

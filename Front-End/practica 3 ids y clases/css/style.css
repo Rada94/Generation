@@ -1,0 +1,19 @@
+h2
+{
+    color: blue;
+}
+
+.parrafoPar
+{
+    background-color: aquamarine;
+}
+
+.parrafoImpar
+{
+    background-color: chocolate;
+}
+
+#parrafo1, #parrafo6
+{
+    text-align: center;
+}

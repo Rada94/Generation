@@ -1,0 +1,33 @@
+h1
+{
+    color: blue;
+}
+header
+{
+    background-color: #ff0000;
+}
+/*Comentario*/
+nav
+{
+    background-color: #f00;
+}
+
+aside
+{
+    background-color: chocolate;
+}
+
+section
+{
+    background-color: beige;
+}
+
+article
+{
+    background-color: azure;
+}
+
+footer
+{
+    background-color: aliceblue;
+}
